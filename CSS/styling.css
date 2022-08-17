@@ -12,6 +12,6 @@ h1{
     text-align: center;
 
 }
-*{
-    background-image: url(../Images/rubikscube);
+.title {
+    color: aquamarine;
 }
