@@ -11,6 +11,13 @@ a {
     color: inherit;
     text-decoration: inherit;
   }
+#algo {
+    background-color: rgb(109, 120, 184);
+    margin: 15px;
+    padding: 20px;
+    border: 20px solid rgb(0, 119, 255);
+    text-align: center;
+}
 .algos {
     background-color: rgb(109, 120, 184);
     margin: 15px;
