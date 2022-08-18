@@ -25,4 +25,7 @@ h1{
 .title {
     color: aquamarine;
 }
+ul {
+    list-style: none;
+}
 
