@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end{
+    text-align: left;
+}
+footer{
+    text-align: right;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
