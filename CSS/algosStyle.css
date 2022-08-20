@@ -1,5 +1,19 @@
+*{
+    border: 2px solid blue;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;/*url(../Images/rubikscube1.jpg);*/
+    background-position: top ;
+}
 h1{
+    background-color: brown;
     text-align: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding:0px;
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,4 +27,7 @@ footer{
 a {
     color: inherit;
     text-decoration: inherit;
+}
+div, p {
+    font-weight: bold;
 }
