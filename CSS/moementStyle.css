@@ -1,1 +1,39 @@
-
+body {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+.cube-steps-container {
+    background-color: aquamarine;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin: 0;
+}
+.faces {
+    margin-right: 30px;
+}
+h1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+div {
+    font-weight: bold;
+}
+.end{
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}

@@ -1,12 +1,9 @@
-*{
-    border: 2px solid blue;
-}
+
 html{
     box-sizing: border-box;
 }
 body{
     background-color: lightblue;/*url(../Images/rubikscube1.jpg);*/
-    background-position: top ;
 }
 h1{
     background-color: brown;
@@ -16,18 +13,27 @@ h1{
     padding:0px;
 }
 p{
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .end{
     text-align: left;
 }
 footer{
+    font-weight: bold;
+    font-style: italic;
+}
+.back .home{
+    text-align: left;
+}
+.next{
     text-align: right;
 }
 a {
     color: inherit;
     text-decoration: inherit;
 }
-div, p {
-    font-weight: bold;
+div{
+    display: flex;
 }
+

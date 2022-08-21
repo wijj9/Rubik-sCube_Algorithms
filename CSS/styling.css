@@ -9,11 +9,11 @@ h1{
     color: aquamarine;
 }
 body {
-    background-image: url(../Images/rubikscubeE.jpg);
+    background-image: url(../Images/Background/Background1.jpg);
+    background-size: 1690px 920px;
     background-position: top left;
     background-repeat: no-repeat;
     background-attachment:scroll;
-    background-size:auto;
 }
 a {
     color: black;
