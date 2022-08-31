@@ -1,0 +1,113 @@
+body{
+    /*
+    background-image: url(../Images/Background/Background1.jpg);
+    background-size: 1690px 1080px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    */
+    background-color: rgb(24, 26, 27);
+}
+
+.header, .algos { 
+    display: flex;
+    justify-content: space-between;
+}
+.header .r,.header .l, .algos .l, .algos .r {
+    flex: 1;
+}
+.algos .middle {
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    border: 10px solid rgb(0, 119, 255);
+    border-radius: 5px;
+    padding:0px;
+    margin-bottom: 6px;
+    flex: 1;
+}
+.header .m {
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    border: 10px solid rgb(0, 119, 255);
+    border-radius: 5px;
+    padding:0px;
+    margin-bottom: 6px;
+    flex: 1;
+}
+p {
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.return, .next, .back {
+    background-color: rgb(148, 148, 31);
+    width: 100%;
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+div {
+    font-weight: bold;
+}
+.OLL {
+    display: flex;
+}
+.OLL_start, .OLL_finish, .dark_arrow {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow {
+    width: 80px;
+    height: 50px; 
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+.description {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 9px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.algorithm {
+    display: flex;
+    background-color: rgba(255,255,255,0.5);
+}
+.element1 {
+    flex-basis: 25%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element2 {
+    flex-basis: 75%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.element2 p {
+    color: ;
+}
